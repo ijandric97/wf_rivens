@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>Warframe Riven List</title>
+</head>
+<body onload="Init();">
+	<input type="text" id="SearchBar" onkeyup="SearchTables()" placeholder="Filter out weapons..." title="Type in a name">
+	<br>
+	<div class="tableName">Veiled Rivens</div>
+	<table id="VeiledTable">
+		<tr>
+			<th onclick="sortTable('VeiledTable', 0)">Riven</th>
+			<th onclick="sortTable('VeiledTable', 1)">Avg</th>
+			<th onclick="sortTable('VeiledTable', 2)">Std.Dev</th>
+			<th onclick="sortTable('VeiledTable', 3)">Min</th>
+			<th onclick="sortTable('VeiledTable', 4)">Max</th>
+			<th onclick="sortTable('VeiledTable', 5)">Popularity</th>
+		</tr>
+	</table>
+	<br>
+	<div class="tableName">Kitgun Rivens</div>
+	<table id="KitgunTable">
+		<tr>
+			<th onclick="sortTable('KitgunTable', 0)">Kitgun</th>
+			<th onclick="sortTable('KitgunTable', 1)">Avg</th>
+			<th onclick="sortTable('KitgunTable', 2)">Std.Dev</th>
+			<th onclick="sortTable('KitgunTable', 3)">Min</th>
+			<th onclick="sortTable('KitgunTable', 4)">Max</th>
+			<th onclick="sortTable('KitgunTable', 5)">Popularity</th>
+		</tr>
+	</table>
+	<br>
+	<div class="tableName">Melee Rivens</div>
+	<table id="MeleeTable">
+		<tr>
+			<th onclick="sortTable('MeleeTable', 0)">Melee</th>
+			<th onclick="sortTable('MeleeTable', 1)">Avg</th>
+			<th onclick="sortTable('MeleeTable', 2)">Std.Dev</th>
+			<th onclick="sortTable('MeleeTable', 3)">Min</th>
+			<th onclick="sortTable('MeleeTable', 4)">Max</th>
+			<th onclick="sortTable('MeleeTable', 5)">Popularity</th>
+		</tr>
+	</table>
+	<br>
+	<div class="tableName">Pistol Rivens</div>
+	<table id="PistolTable">
+		<tr>
+			<th onclick="sortTable('PistolTable', 0)">Pistol</th>
+			<th onclick="sortTable('PistolTable', 1)">Avg</th>
+			<th onclick="sortTable('PistolTable', 2)">Std.Dev</th>
+			<th onclick="sortTable('PistolTable', 3)">Min</th>
+			<th onclick="sortTable('PistolTable', 4)">Max</th>
+			<th onclick="sortTable('PistolTable', 5)">Popularity</th>
+		</tr>
+	</table>
+	<br>
+	<div class="tableName">Rifle Rivens</div>
+	<table id="RifleTable">
+		<tr>
+			<th onclick="sortTable('RifleTable', 0)">Rifle</th>
+			<th onclick="sortTable('RifleTable', 1)">Avg</th>
+			<th onclick="sortTable('RifleTable', 2)">Std.Dev</th>
+			<th onclick="sortTable('RifleTable', 3)">Min</th>
+			<th onclick="sortTable('RifleTable', 4)">Max</th>
+			<th onclick="sortTable('RifleTable', 5)">Popularity</th>
+		</tr>
+	</table>
+	<br>
+	<div class="tableName">Shotgun Rivens</div>
+	<table id="ShotgunTable">
+		<tr>
+			<th onclick="sortTable('ShotgunTable', 0)">Shotgun</th>
+			<th onclick="sortTable('ShotgunTable', 1)">Avg</th>
+			<th onclick="sortTable('ShotgunTable', 2)">Std.Dev</th>
+			<th onclick="sortTable('ShotgunTable', 3)">Min</th>
+			<th onclick="sortTable('ShotgunTable', 4)">Max</th>
+			<th onclick="sortTable('ShotgunTable', 5)">Popularity</th>
+		</tr>
+	</table>
+	<br>
+	<div class="tableName">Zaw Rivens</div>
+	<table id="ZawTable">
+		<tr>
+			<th onclick="sortTable('ZawTable', 0)">Zaw</th>
+			<th onclick="sortTable('ZawTable', 1)">Avg</th>
+			<th onclick="sortTable('ZawTable', 2)">Std.Dev</th>
+			<th onclick="sortTable('ZawTable', 3)">Min</th>
+			<th onclick="sortTable('ZawTable', 4)">Max</th>
+			<th onclick="sortTable('ZawTable', 5)">Popularity</th>
+		</tr>
+	</table>
+	
+	<script src="script.js"></script>
+</body>
+</html>

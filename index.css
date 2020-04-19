@@ -1,0 +1,58 @@
+:root {
+	font-family: arial, sans-serif;
+	font-size: 10pt;
+	color: #ababab;
+	background-color: #192227;
+}
+
+#SearchBar {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	text-align: center;
+	
+	border: 1px solid #2c323b;
+    background: #070a0b;
+    color: #ababab;
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+#SearchBar:focus {
+	border: 1px solid maroon;
+	outline: none;
+}
+
+.tableName {
+	border: none;
+	border-bottom: 1px solid #3a4450;
+	text-align: center;
+}
+
+table {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border-collapse: collapse;
+}
+
+th {
+	border: 1px solid #3a4450;
+	text-align: center;
+	background-color: #1f2c34;
+	color: white;
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+td {
+	border: 1px solid #3a4450;
+	text-align: left;
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	background-color: #070a0b;
+}
